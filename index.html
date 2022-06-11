@@ -1,65 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Happy Pride!</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- Navbar Section  -->
 
     <nav class="navbar">
-        <div class="navbar__container">
-            <a href="#home" id="navbar__logo">Love wins</a>
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="#home" class="navbar__links" id="home-page">Home</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#about" class="navbar__links" id="about-page">About</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#services" class="navbar__links" id="services-page">Resources</a>
-                </li>
-                <li class="navbar__btn">
-                    <a href="#sign-up" class="button" id="signup">Pick a colour</a>
-                </li>
-            </ul>
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">Love wins</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >Resources</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="#sign-up" class="button" id="signup">Pick a colour</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <!-- Hero Section  -->
 
-<div class="hero" id="home">
-    <div class="hero__container">
+    <div class="hero" id="home">
+      <div class="hero__container">
         <h1 class="hero__heading">Choose your <span>Colour</span></h1>
         <p class="hero__description">LGBTSQia+</p>
         <button class="main__btn"><a href="#">Explore</a></button>
+      </div>
     </div>
-</div>
 
-<!-- About Section -->
-<div class="main" id="about">
-    <div class="main__container">
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
         <div class="main__img--container">
-            <div class="main__img--card"></div>
+          <div class="main__img--card"></div>
         </div>
         <div class="main__content">
-            <h1>What is this page about?</h1>
-            <h2>It's about supporting pride</h2>
-            <p>Choose a colour and share yours!</p>
-            <button class="main__btn"><a href="#">Let's go!</a></button>
+          <h1>What is this page about?</h1>
+          <h2>It's about supporting pride</h2>
+          <p>Choose a colour and share yours!</p>
+          <button class="main__btn"><a href="#services">Let's go!</a></button>
         </div>
+      </div>
     </div>
-</div>
+
+    <!-- resources section -->
+    <div class="services" id="services">
+      <h1>Resources</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Red</h2>
+          <p>Life</p>
+          <div class="services__btn"><button>Get started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Orange</h2>
+          <p>Healing</p>
+          <div class="services__btn"><button>Get started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Yellow</h2>
+          <p>Sun</p>
+          <div class="services__btn"><button>Get started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Green</h2>
+          <p>Nature</p>
+          <div class="services__btn"><button>Get started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Turquoise</h2>
+          <p>Art</p>
+          <div class="services__btn"><button>Get started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Indigo</h2>
+          <p>Harmony</p>
+          <div class="services__btn"><button>Get started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Violet</h2>
+          <p>Soul</p>
+          <div class="services__btn"><button>Get started</button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features -->
+
+    <div class="main" id="sign-up">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Get in touch</h1>
+          <h2>Contact us today</h2>
+          <p>Eat the rainbow</p>
+          <button class="main__btn"><a href="#services">Share the colours!</a></button>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                    <a href="/sign-up"> How it works</a>
+                    <a href="/sign-up"> Testimonials</a>
+                    <a href="/sign-up"> Sabina's Github</a>
+                    <a href="/sign-up"> Terms of Services</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2> Stuff</h2>
+                    <a href="/sign-up"> Imprint</a>
+                    <a href="/sign-up"> Privacy Policy</a>
+                    <a href="/sign-up"> Legal</a>
+                    <a href="/sign-up"> Copyright</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="/sign-up">Instagram</a>
+                    <a href="/sign-up"> Twitter</a>
+                    <a href="/sign-up"> Facebook</a>
+                    <a href="/sign-up"> Tiktok</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Submit </h2>
+                    <a href="/sign-up"> Email Us</a>
+                    <a href="/sign-up">Send a letter</a>
+                    <a href="/sign-up"> Give us a call</a>
+                    <a href="/sign-up"> Come visit</a>
+                </div>
+            </div>
+            </div>
+            <section class="social__media">
+                <div class="social__media--wrap">
+                    <div class="footer__logo">
+                        <a href="/" id="footer__logo">Happy Pride</a>
+                    </div>
+                    <p class="website__rights">©HAPPY PRIDE 2022. All rights reserved</p>
+                    <div class="social__icons">
+                        <a href="/" class="social__icon--link"><i class="fab fa-facebook"></i></a>
+                        <a href="/" class="social__icon--link"><i class="fab fa-instagram"></i></a>
+                        <a href="/" class="social__icon--link"><i class="fab fa-youtube"></i></a>
+                        <a href="/" class="social__icon--link"><i class="fab fa-twitter"></i></a>
+                        <a href="/" class="social__icon--link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+            </section>
+        </div>
 
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
