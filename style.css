@@ -380,6 +380,28 @@ background: #ff8177;
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background: url("https://www.unco.edu/gender-sexuality-resource-center/images/pride-flags/Progress-Pride.jpg");
+    background: url("https://cdn.dribbble.com/users/3157019/screenshots/6638142/image.gif");
     z-index: 300;
+}
+
+#card-2 {
+    background: #ff512f;
+    background: -webkit-linear-gradient(to right #dd2476, #ff512f);
+    background: linear-gradient(to right, #dd2476, #ff512f);
+}
+
+/* mobile responsive */
+
+@media screen and (max-width: 1100px) {
+    .main__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        height:90%
+    }
+
+.main
 }
